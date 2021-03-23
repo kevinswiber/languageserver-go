@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/lsp/tests"
-	"golang.org/x/tools/internal/span"
+	"github.com/kevinswiber/languageserver-go/lsp/protocol"
+	"github.com/kevinswiber/languageserver-go/lsp/source"
+	"github.com/kevinswiber/languageserver-go/lsp/tests"
+	"github.com/kevinswiber/languageserver-go/span"
 )
 
 func (r *runner) Completion(t *testing.T, src span.Span, test tests.Completion, items tests.CompletionItems) {

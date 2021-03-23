@@ -10,7 +10,7 @@ import (
 	"go/token"
 	"sort"
 
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/kevinswiber/languageserver-go/lsp/protocol"
 )
 
 // FoldingRangeInfo holds range and kind info of folding for an ast.Node

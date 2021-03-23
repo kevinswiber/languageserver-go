@@ -16,14 +16,14 @@ import (
 	"strings"
 
 	"golang.org/x/mod/modfile"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/command"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/kevinswiber/languageserver-go/event"
+	"github.com/kevinswiber/languageserver-go/gocommand"
+	"github.com/kevinswiber/languageserver-go/lsp/cache"
+	"github.com/kevinswiber/languageserver-go/lsp/command"
+	"github.com/kevinswiber/languageserver-go/lsp/protocol"
+	"github.com/kevinswiber/languageserver-go/lsp/source"
+	"github.com/kevinswiber/languageserver-go/span"
+	"github.com/kevinswiber/languageserver-go/xcontext"
 	errors "golang.org/x/xerrors"
 )
 

@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/kevinswiber/languageserver-go/lsp/protocol"
 )
 
 // Pos represents a position in a text buffer. Both Line and Column are

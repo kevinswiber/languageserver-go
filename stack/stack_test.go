@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/stack"
+	"github.com/kevinswiber/languageserver-go/stack"
 )
 
 func TestProcess(t *testing.T) {

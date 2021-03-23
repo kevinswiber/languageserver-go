@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/internal/event"
+	"github.com/kevinswiber/languageserver-go/event"
 )
 
 // An Runner will run go command invocations and serialize

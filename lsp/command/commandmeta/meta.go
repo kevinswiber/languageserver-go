@@ -17,7 +17,7 @@ import (
 
 	"golang.org/x/tools/go/ast/astutil"
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/lsp/command"
+	"github.com/kevinswiber/languageserver-go/lsp/command"
 )
 
 type Command struct {
@@ -51,7 +51,7 @@ func Load() (*packages.Package, []*Command, error) {
 			Mode:       packages.NeedTypes | packages.NeedTypesInfo | packages.NeedSyntax | packages.NeedImports | packages.NeedDeps,
 			BuildFlags: []string{"-tags=generate"},
 		},
-		"golang.org/x/tools/internal/lsp/command",
+		"github.com/kevinswiber/languageserver-go/lsp/command",
 	)
 	if err != nil {
 		return nil, nil, fmt.Errorf("packages.Load: %v", err)

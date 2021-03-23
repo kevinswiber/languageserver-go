@@ -8,7 +8,7 @@ import (
 	"context"
 	"testing"
 
-	"golang.org/x/tools/internal/gocommand"
+	"github.com/kevinswiber/languageserver-go/gocommand"
 )
 
 func TestGoVersion(t *testing.T) {

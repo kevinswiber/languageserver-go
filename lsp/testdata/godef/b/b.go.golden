@@ -52,7 +52,7 @@ func (a.A).Hi()
 [`(a.A).Hi` on pkg.go.dev](https://pkg.go.dev/golang.org/x/tools/internal/lsp/godef/a?utm_source=gopls#A.Hi)
 -- AImport-definition --
 godef/b/b.go:5:2-43: defined here as ```go
-package a ("golang.org/x/tools/internal/lsp/godef/a")
+package a ("github.com/kevinswiber/languageserver-go/lsp/godef/a")
 ```
 
 [`a` on pkg.go.dev](https://pkg.go.dev/golang.org/x/tools/internal/lsp/godef/a?utm_source=gopls)
@@ -71,12 +71,12 @@ package a ("golang.org/x/tools/internal/lsp/godef/a")
 			"offset": 153
 		}
 	},
-	"description": "```go\npackage a (\"golang.org/x/tools/internal/lsp/godef/a\")\n```\n\n[`a` on pkg.go.dev](https://pkg.go.dev/golang.org/x/tools/internal/lsp/godef/a?utm_source=gopls)"
+	"description": "```go\npackage a (\"github.com/kevinswiber/languageserver-go/lsp/godef/a\")\n```\n\n[`a` on pkg.go.dev](https://pkg.go.dev/golang.org/x/tools/internal/lsp/godef/a?utm_source=gopls)"
 }
 
 -- AImport-hover --
 ```go
-package a ("golang.org/x/tools/internal/lsp/godef/a")
+package a ("github.com/kevinswiber/languageserver-go/lsp/godef/a")
 ```
 
 [`a` on pkg.go.dev](https://pkg.go.dev/golang.org/x/tools/internal/lsp/godef/a?utm_source=gopls)
@@ -420,7 +420,7 @@ const X untyped int = 0
 \@mark\(bX, \"X\"\),godef\(\"X\", bX\)
 -- myFoo-definition --
 godef/b/b.go:4:2-7: defined here as ```go
-package myFoo ("golang.org/x/tools/internal/lsp/foo")
+package myFoo ("github.com/kevinswiber/languageserver-go/lsp/foo")
 ```
 
 [`myFoo` on pkg.go.dev](https://pkg.go.dev/golang.org/x/tools/internal/lsp/foo?utm_source=gopls)
@@ -439,12 +439,12 @@ package myFoo ("golang.org/x/tools/internal/lsp/foo")
 			"offset": 26
 		}
 	},
-	"description": "```go\npackage myFoo (\"golang.org/x/tools/internal/lsp/foo\")\n```\n\n[`myFoo` on pkg.go.dev](https://pkg.go.dev/golang.org/x/tools/internal/lsp/foo?utm_source=gopls)"
+	"description": "```go\npackage myFoo (\"github.com/kevinswiber/languageserver-go/lsp/foo\")\n```\n\n[`myFoo` on pkg.go.dev](https://pkg.go.dev/golang.org/x/tools/internal/lsp/foo?utm_source=gopls)"
 }
 
 -- myFoo-hover --
 ```go
-package myFoo ("golang.org/x/tools/internal/lsp/foo")
+package myFoo ("github.com/kevinswiber/languageserver-go/lsp/foo")
 ```
 
 [`myFoo` on pkg.go.dev](https://pkg.go.dev/golang.org/x/tools/internal/lsp/foo?utm_source=gopls)

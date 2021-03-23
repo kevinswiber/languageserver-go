@@ -9,7 +9,7 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/kevinswiber/languageserver-go/lsp/source"
 )
 
 // exprAtPos returns the index of the expression containing pos.

@@ -16,10 +16,10 @@ import (
 	"strings"
 	"text/scanner"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/kevinswiber/languageserver-go/event"
+	"github.com/kevinswiber/languageserver-go/imports"
+	"github.com/kevinswiber/languageserver-go/lsp/diff"
+	"github.com/kevinswiber/languageserver-go/lsp/protocol"
 )
 
 // Format formats a file with a given range.

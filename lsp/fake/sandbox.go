@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/kevinswiber/languageserver-go/gocommand"
+	"github.com/kevinswiber/languageserver-go/testenv"
 	"golang.org/x/tools/txtar"
 	errors "golang.org/x/xerrors"
 )

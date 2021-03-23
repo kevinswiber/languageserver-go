@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/internal/lsp/analysis/nonewvars"
+	"github.com/kevinswiber/languageserver-go/lsp/analysis/nonewvars"
 )
 
 func Test(t *testing.T) {

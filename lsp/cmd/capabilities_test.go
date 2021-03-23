@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/kevinswiber/languageserver-go/lsp"
+	"github.com/kevinswiber/languageserver-go/lsp/cache"
+	"github.com/kevinswiber/languageserver-go/lsp/protocol"
 	errors "golang.org/x/xerrors"
 )
 

@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"github.com/kevinswiber/languageserver-go/lsp/diff"
+	"github.com/kevinswiber/languageserver-go/lsp/protocol"
+	"github.com/kevinswiber/languageserver-go/lsp/source"
+	"github.com/kevinswiber/languageserver-go/span"
 	errors "golang.org/x/xerrors"
 )
 

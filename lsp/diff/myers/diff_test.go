@@ -7,8 +7,8 @@ package myers_test
 import (
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/diff/difftest"
-	"golang.org/x/tools/internal/lsp/diff/myers"
+	"github.com/kevinswiber/languageserver-go/lsp/diff/difftest"
+	"github.com/kevinswiber/languageserver-go/lsp/diff/myers"
 )
 
 func TestDiff(t *testing.T) {

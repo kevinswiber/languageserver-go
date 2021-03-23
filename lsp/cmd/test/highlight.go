@@ -9,7 +9,7 @@ import (
 
 	"fmt"
 
-	"golang.org/x/tools/internal/span"
+	"github.com/kevinswiber/languageserver-go/span"
 )
 
 func (r *runner) Highlight(t *testing.T, spn span.Span, spans []span.Span) {

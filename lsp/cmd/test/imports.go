@@ -7,9 +7,9 @@ package cmdtest
 import (
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/diff/myers"
-	"golang.org/x/tools/internal/span"
+	"github.com/kevinswiber/languageserver-go/lsp/diff"
+	"github.com/kevinswiber/languageserver-go/lsp/diff/myers"
+	"github.com/kevinswiber/languageserver-go/span"
 )
 
 func (r *runner) Import(t *testing.T, spn span.Span) {

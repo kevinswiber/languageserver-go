@@ -14,7 +14,7 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/kevinswiber/languageserver-go/lsp/source"
 )
 
 type PrintMode int

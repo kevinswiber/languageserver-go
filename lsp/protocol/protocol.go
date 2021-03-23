@@ -9,9 +9,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/kevinswiber/languageserver-go/event"
+	"github.com/kevinswiber/languageserver-go/jsonrpc2"
+	"github.com/kevinswiber/languageserver-go/xcontext"
 	errors "golang.org/x/xerrors"
 )
 

@@ -1,7 +1,7 @@
 package errors
 
 import (
-	"golang.org/x/tools/internal/lsp/types"
+	"github.com/kevinswiber/languageserver-go/lsp/types"
 )
 
 func _() {

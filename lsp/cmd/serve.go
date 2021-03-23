@@ -14,13 +14,13 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/tools/internal/fakenet"
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/lsp/lsprpc"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/tool"
+	"github.com/kevinswiber/languageserver-go/fakenet"
+	"github.com/kevinswiber/languageserver-go/jsonrpc2"
+	"github.com/kevinswiber/languageserver-go/lsp/cache"
+	"github.com/kevinswiber/languageserver-go/lsp/debug"
+	"github.com/kevinswiber/languageserver-go/lsp/lsprpc"
+	"github.com/kevinswiber/languageserver-go/lsp/protocol"
+	"github.com/kevinswiber/languageserver-go/tool"
 	errors "golang.org/x/xerrors"
 )
 

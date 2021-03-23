@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/internal/stack"
+	"github.com/kevinswiber/languageserver-go/stack"
 )
 
 //this is only needed to support pre 1.14 when testing.TB did not have Cleanup

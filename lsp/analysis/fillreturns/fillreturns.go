@@ -19,7 +19,7 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/analysisinternal"
+	"github.com/kevinswiber/languageserver-go/analysisinternal"
 )
 
 const Doc = `suggested fixes for "wrong number of return values (want %d, got %d)"

@@ -12,10 +12,10 @@ import (
 	"sort"
 	"sync"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/core"
-	"golang.org/x/tools/internal/event/export/metric"
-	"golang.org/x/tools/internal/event/label"
+	"github.com/kevinswiber/languageserver-go/event"
+	"github.com/kevinswiber/languageserver-go/event/core"
+	"github.com/kevinswiber/languageserver-go/event/export/metric"
+	"github.com/kevinswiber/languageserver-go/event/label"
 )
 
 func New() *Exporter {

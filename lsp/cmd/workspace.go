@@ -9,10 +9,10 @@ import (
 	"flag"
 	"fmt"
 
-	"golang.org/x/tools/internal/lsp/command"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/tool"
+	"github.com/kevinswiber/languageserver-go/lsp/command"
+	"github.com/kevinswiber/languageserver-go/lsp/protocol"
+	"github.com/kevinswiber/languageserver-go/lsp/source"
+	"github.com/kevinswiber/languageserver-go/tool"
 )
 
 // workspace is a top-level command for working with the gopls workspace. This

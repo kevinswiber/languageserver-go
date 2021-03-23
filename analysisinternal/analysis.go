@@ -14,7 +14,7 @@ import (
 	"strings"
 
 	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/lsp/fuzzy"
+	"github.com/kevinswiber/languageserver-go/lsp/fuzzy"
 )
 
 var (
